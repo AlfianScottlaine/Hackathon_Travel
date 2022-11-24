@@ -5,8 +5,289 @@
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
 }
+
 body {
-  background-color: #D8EEF2;
+  background-color: #d8eef2;
   background-size: cover;
   background-attachment: fixed;
+}
+
+/*CSS properties:*/
+
+:root {
+  --primary-color: #0a285f;
+  --secondary-color: #b0002d;
+  --light-blue: #D9D9D9;
+  --dark-gray: #767586;
+  --margin-city: 1rem;
+}
+
+h1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  text-shadow: 2px 4px 4px rgba(3, 3, 3, 0.25);
+  -webkit-text-stroke: 0.7px #0f1011;
+  width: 15ch;
+  margin-left: 1.5rem;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Activities*/
+
+.activities {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #d8eef2;
+}
+
+.activities h2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.25);
+  width: 30ch;
+  top: 0;
+}
+
+/*Hotels*/
+
+.hotels {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.hotels h2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.25);
+  width: 30ch;
+  top: 0;
+}
+
+.hotels img {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  top: 5rem;
+  width: 25rem;
+  height: 15rem;
+}
+
+.hotels p {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  color: #000000;
+  background-color: var(--light-blue);
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.25);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 45ch;
+  padding: 10px;
+  top: 20rem;
+}
+
+/*Transportation*/
+
+
+.transportation {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d8eef2;
+}
+
+.transportation h2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.25);
+  width: 30ch;
+  top: 0;
+}
+
+.transportation img {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem;
+  top: 1rem;
+  
+}
+
+.transportation h3 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 2rem;
+  margin : 1rem;
+  height: 2rem;
+  top: 1rem;
+  color: #000000;
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.25);
+}
+
+.car-rental h3 {
+  background-color: #FFA0A0;
+}
+
+.bus h3 {
+  background-color: #F6F5CE;
+}
+
+.train h3 {
+  background-color: #A29BBE;
+}
+
+.plane h3 {
+  background-color: #92DBDB;
+}
+
+
+
+/*restaurants*/
+
+.restaurants {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.restaurants h2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.25);
+  width: 30ch;
+  top: 0;
+}
+
+.restaurants img {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  top: 5rem;
+  width: 25rem;
+  height: 15rem;
+}
+
+
+.restaurants p {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  color: #000000;
+  background-color: var(--light-blue);
+  text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.25);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 45ch;
+  padding: 10px;
+  top: 20rem;
+}
+
+
+
+
+
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  font-size: 1rem;
+  width: 100%;
+  height: 5vh;
+  color: rgb(0, 0, 0);
+  background: var(--secondary-color);
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }

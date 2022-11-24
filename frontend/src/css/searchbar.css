@@ -1,0 +1,44 @@
+/*CSS properties:*/
+
+:root {
+  --primary-color: #d8eef2;
+  --secondary-color: #68c8e7;
+  --light-gray: #aba9bc;
+  --dark-gray: #767586;
+  --margin-city: 1rem;
+}
+
+.searchbar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10rem;
+}
+
+input {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  height: 3rem;
+  width: 15rem;
+  background: rgba(255, 255, 255, 0.785);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(146, 60, 60, 0.25);
+  border-radius: 20px;
+  padding-right: 0.5rem;
+}
+
+.searchIcon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 15px;
+  opacity: 60%;
+  margin-right: 12rem;
+}
